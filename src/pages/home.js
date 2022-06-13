@@ -9,15 +9,15 @@ function HomePage() {
   return (
     <div>
       <TopBar />
-      <div class="center home-page-container flex items-center justify-center sans-serif ph4">
-        <div class="ph2-ns">
-          <div class="fl w-100 w-50-ns pa2">
-            <div class="pv4">
+      <div className="center home-page-container flex items-center justify-center sans-serif ph4">
+        <div className="ph2-ns">
+          <div className="fl w-100 w-50-ns pa2">
+            <div className="pv4">
               <HomeBackground />
             </div>
           </div>
-          <div class="fl w-100 w-50-ns pa2">
-            <div class="pv4">
+          <div className="fl w-100 w-50-ns pa2">
+            <div className="pv4">
               <HomeHeader />
               <HomeDetail />
             </div>
